@@ -1,4 +1,4 @@
-// here we will see how a api works
+// here we will see how an api works
 
 const obj = {
 
