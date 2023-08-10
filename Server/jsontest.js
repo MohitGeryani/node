@@ -1,4 +1,5 @@
-// here we will create an api 
+// here we will see how an api works
+
 const obj = {
 
     name: "Mohit", 
