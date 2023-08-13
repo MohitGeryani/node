@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title><%= title %></title>  
+    
+    <!-- To display something from server , we use  "  =  "  and to import something we use " - " sign and " % %  " are common              -->
+    <!-- basically we're getting the title from server using template engine  -->
+
+    <!-- Now we'll import necesarry meta info and tailwind css cdn to make the below code look like we want  -->
+
+    <%- include("../partial/meta.ejs") %>
+
+</head>
+<body>
+
+
+
+    <div>
+        <h1> This is Home PAge</h1>
+    </div>
+
+    <%- include("../partial/data.ejs") %> 
+    <!-- simply we are including the data from data.ejs file coz its same and we can easily reuse it instead of writing it again and again -->
+
+    
+
+   
+
+</body>
+</html>

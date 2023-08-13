@@ -43,7 +43,8 @@ res.sendFile(`${pathDir}/indexs.html`)
 
 
 app.get("/object", (req, res) => {
-     res.send({
+
+         res.send({
         name:"Name",         // this will automatically convert the object into json file and send as response 
         Age: 19
 
